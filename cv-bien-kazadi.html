@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV-BienKazadi</title>
+  <link rel="stylesheet" href="style-2.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <section class="hero">
+      <img src="WellBien.jpg" alt="Photo de profil">
+
+      <div class="hero-content">
+        <h1>KAZADI KABAMBA</h1>
+        <h3>Développeur Full Stack</h3>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/bien-kazadi-a2026a35a?utm_source=shar"><i class="fab fa-linkedin"></i></a>
+        <a href="https://whatsapp.com/channel/0029VbDriUHFHWptCztSEH2g"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61564023035072"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/bienkazadi_07"><i class="fab fa-instagram"></i></a>
+        <a href="https://discord.gg/7sXEpvdd"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/bienkazadi07-ipp"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/@bienKazadi_07"><i class="fab fa-youtube"></i></a>
+        <a href="https://tiktok.com/@bienkazadi_07"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.snapchat.com/add/bienkazadi_07?share_id=xo5Ts-6DVoA&locale=fr-FR"><i class="fab fa-snapchat"></i></a>
+        <a href="https://x.com/bienkazadi_07"><i class="fab fa-twitter"></i></a>
+      </div>
+      </div>
+    </section>
+
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <a href="index.html" class="lien-retour"><i class="fa-solid fa-house"></i></a>
+      
+      <button onclick="toggleDarkMode()">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      
+      <button onclick="alert('CV de Bien Kazadi téléchargé avec succes.')">
+        <i class="fa-solid fa-download"> CV</i>
+      </button>
+
+      <button onclick="window.print()">
+        <i class="fa-solid fa-file-pdf"></i>
+      </button>
+      
+    </div>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat-card">
+        <h2 id="exp">0</h2>
+        <p>Années d'expérience</p>
+      </div>
+
+      <div class="stat-card">
+        <h2 id="projects">0</h2>
+        <p>Projets réalisés</p>
+      </div>
+
+      <div class="stat-card">
+        <h2 id="clients">0</h2>
+        <p>Clients satisfaits</p>
+      </div>
+    </section>
+
+    <!-- MAIN GRID -->
+    <div class="grid">
+
+    <!---Informations Personnelles---->
+    <section  class="card">
+    <h2>I. DONNÉES PERSONNELLES <i class="fa-solid fa-user"></i></h2>
+    <!-- <div class="col-sm-6 py-1"> -->
+      <h5>Noms : <b>KAZADI KABAMBA</b></h5>
+      <h5>Prénom : <b>Bienvenu</b></h5>
+      <h5>Profession : <b>Étudiant en informatique</b></h5>
+      <h5>Nationalité : <b>Congolaise</b></h5>
+      <h5>lieu & Date de naissance : <b>kinshasa, le 07 juillet 2002</b></h5>
+      <h5>État civil : <b>Célibataire</b></h5>
+      <h5>Genre : <b>Homme</b></h5>
+      <h5>Province d'origine : <b>Lomami</b></h5>
+      <h5>Terriotoire d'origine : <b>Ngandajika</b></h5>
+      <h5>Secteur d'origine : <b>Bena-Tshiyamba</b></h5>
+      <h5>Adresse (Domicile) : <b>Av. Mbomu, N° 113, Kinshasa/RDC.</b></h5>      
+      <h5>Pays : <b>République Démocratique du Congo (RDC)</b></h5>
+      <h5>Ville : <b>Kinshasa</b></h5>
+      <h5>Téléhone : <a href="+243 810 550 560"> <b>00243 810 550 560 </b></a>(mobile)</h5>
+      <h5>Adresse E-mail :<a href="#"> <b>bienkazadi.07@gmail.com</b></a></h5>
+    </section>
+
+    <!-- LANGUES -->
+    <section class="card">
+      <h2>II. ÉTUDES FAITES <i class="fa-solid fa-graduation-cap"></i></h2>
+        <ul type="disc">
+          <li>2022  : <small>Études secondaires et humanités faites au Groupe Scolaire Emmaüs, Kinshasa ; obtention d’un Diplôme d’État en Chimie-Biologie (sciences).</small></li>
+          <li>2029 : <small>Études universitaires faites à l’Université Protestante au Congo, Kinshasa ; obtention d’un Diplôme de Licence en cours...</small></li>
+        </ul>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section class="card">
+      <h2>III. EXPERIENCES <i class="fa-solid fa-briefcase"></i></h2>
+      <div class="item">
+        <h3>Employé </h3>
+        <small>2023-2024 : Passé</small>
+        <p>
+          Employé (vendeur) dans un magasin de valises (Ets. La Main de Dieu)
+        </p>    
+      </div>
+      <div class="item">
+        <h3>Développeur Web et mobile</h3>
+        <small>2019 - 2022</small>
+        <p>
+          Création d’applications web responsive.
+          Développement d’interfaces modernes avec HTML/CSS/JS,
+          optimisation des performances et amélioration UX.
+        </p>
+      </div>
+    </section>
+      
+      <!-- LANGUES PARLÉES -->
+      <section class="card">
+        <h2 class="title position-relative pb-2 mb-4">VI. LANGUES PARLÉES <i class="fa-solid fa-message"></i></h2>
+      <ul type="square">
+        <li>Lingala : Courant (Excellent)</li>
+        <li>Français : Intermédiaire</li>
+        <li>Anglais : Débutant </li>
+      </ul>
+      </section>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section class="card" style="margin-top:25px;">
+      <h2>V. PORTFOLIO <i class="fa-solid fa-layer-group"></i></h2>
+
+      <div class="portfolio-grid">
+
+        <div class="project">
+          <img src="EduNumeriX.png" alt="">
+          <div class="project-content">
+            <h3>Plateforme EduNumerix</h3>
+            <p>Plateforme Numérique Educative.</p>
+            <a href="#">Voir le projet</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="Reseau-local.jpg" alt="">
+          <div class="project-content">
+            <h3>Installation de Réseau Local</h3>
+            <p>Configuration et gestion de réseaux locaux.</p>
+            <a href="#">Voir le projet</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="Portrait.jpg" alt="">
+          <div class="project-content">
+            <h3>Conception de Portraits</h3>
+            <p>Création de portraits artistiques.</p>
+            <a href="#">Voir le projet</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="Studio-BK.png" alt="">
+          <div class="project-content">
+            <h3>Studio BK (Audios & Vidéos)</h3>
+            <p>Mise en place d'un studio d'enregistrement et de post-production.</p>
+            <a href="#">Voir le projet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <a href="index.html" class="lien-retour"><i class="fa-solid fa-house"></i></a>
+    
+    <button id="back-to-top" aria-label="Revenir en haut de page">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+    <script src="main.js"></script>
+
+    <footer>
+      <p class="m-0">&copy; 2026 - CV. Rédigé par <a href="https://www.linkedin.com/in/bien-kazadi-a2026a35a?utm_source=shar">Bien KAZADI.</a></p>
+    </footer>
+
+  </div>
+  
+  <!-- Partie JavaScript -->
+  <script>
+    // DARK MODE
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+    // COUNTER ANIMATION
+    function animateCounter(id, target, speed) {
+      let count = 0;
+      const element = document.getElementById(id);
+
+      const interval = setInterval(() => {
+        count++;
+        element.innerText = count;
+
+        if(count >= target) {
+          clearInterval(interval);
+        }
+      }, speed);
+    }
+
+    animateCounter("exp", 3, 500);
+    animateCounter("projects", 4, 300);
+    animateCounter("clients", 12, 200);
+  </script>
+  
+</body>
+</html>
